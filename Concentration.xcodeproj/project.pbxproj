@@ -13,6 +13,8 @@
 		3072AC7827B72B140014512E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3072AC7627B72B140014512E /* Main.storyboard */; };
 		3072AC7A27B72B180014512E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3072AC7927B72B180014512E /* Assets.xcassets */; };
 		3072AC7D27B72B180014512E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3072AC7B27B72B180014512E /* LaunchScreen.storyboard */; };
+		3072AC8627B898A00014512E /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3072AC8527B898A00014512E /* Concentration.swift */; };
+		3072AC8827B899580014512E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3072AC8727B899580014512E /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3072AC7927B72B180014512E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3072AC7C27B72B180014512E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3072AC7E27B72B180014512E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3072AC8527B898A00014512E /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		3072AC8727B899580014512E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				3072AC7227B72B140014512E /* SceneDelegate.swift */,
 				3072AC7427B72B140014512E /* ViewController.swift */,
 				3072AC7627B72B140014512E /* Main.storyboard */,
+				3072AC8527B898A00014512E /* Concentration.swift */,
+				3072AC8727B899580014512E /* Card.swift */,
 				3072AC7E27B72B180014512E /* Info.plist */,
 			);
 			path = Concentration;
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3072AC7527B72B140014512E /* ViewController.swift in Sources */,
+				3072AC8627B898A00014512E /* Concentration.swift in Sources */,
+				3072AC8827B899580014512E /* Card.swift in Sources */,
 				3072AC7127B72B140014512E /* AppDelegate.swift in Sources */,
 				3072AC7327B72B140014512E /* SceneDelegate.swift in Sources */,
 			);
